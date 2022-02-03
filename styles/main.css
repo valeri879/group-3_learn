@@ -229,3 +229,71 @@ section:nth-child(odd) {
     justify-content: center;
     margin: auto;
 }
+
+/*  */
+
+.os-versions > div {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 0 25px;
+}
+
+.os-versions .main-img {
+	width: 100px;
+	display: block;
+	margin-inline: auto;
+	margin-bottom: 30px;
+}
+
+.os-versions .btn {
+	background-color: dodgerblue;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 15px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.os-versions .btn img {
+    width: 8px;
+}
+
+.os-versions .btn > div {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.os-versions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.os-versions table td {
+    font-size: 14px;
+}
+
+.os-versions table a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    height: 18px;
+}
+
+.os-versions table td:first-child {
+    text-align: center;
+}
+
+.os-versions .btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 5px;
+}

@@ -7,6 +7,26 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 992px;
     margin-inline: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 576px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
 }
